@@ -1,3 +1,4 @@
+import math
 import turtle
 
 ########### Your Code here ##############
@@ -6,6 +7,51 @@ import turtle
 # then you do not fully understand functions
 # and should review how they work or ask for help
 
+
+# fred.goto(100,100)
+# fred.goto(100,-100)
+# fred.goto(-100,100)
+# fred.goto(-100,-100)
+
+def drawSineCurve(dart):
+  for x in range(-360,361):
+    y= math.sin(math.radians(x))
+    dart.goto(x,y)
+  dart.up()
+  y = math.cos(math.radians(-360))
+  dart.goto(-360,y)
+
+
+#Part B
+
+def setupWindow(mywindow=None):
+  mywindow.bgcolor("orange")
+  mywindow.setworldcoordinates(-360,-1,360,1)
+
+def setupAxis(myturtle=None):
+  myturtle.reset()
+  myturtle.speed(0)
+  myturtle.goto(0,0) 
+  myturtle.goto(0,-1)
+  myturtle.goto(0,1)
+  myturtle.goto(0,0)
+  myturtle.goto(360,0)
+  myturtle.goto(-360,0)
+
+def drawCosineCurve(dart):
+  dart.down()
+  for x in range(-360,361):
+    y= math.cos(math.radians(x))
+    dart.goto(x,y)
+  dart.up()
+  y = math.tan(math.radians(-360))
+  dart.goto(-360,y)
+
+def drawTangentCurve(dart):
+  dart.down()
+  for x in range(-360,361):
+    y= math.tan(math.radians(x))
+    dart.goto(x,y)
 
 
 
