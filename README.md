@@ -1,25 +1,23 @@
 #### CS 110
-# Chapter 4 - Lab - Functions
-
-### [Assignment Description](https://docs.google.com/document/d/1V20D_upUX4MO8YmskKlRB25Yu2pCEv3-h8z4EAfrSno/edit?usp=sharing)
+# Midterm - Python Programming
 
 ***
 
 _Replace anything surrounded by the `< >` symbols._
 
 ## SUMMARY:
- < Making a sin cos and tan graph >
+What did you clean up?: the variable names to make them more precise. the imports are also on top. I also rechecked the code since my last lab to make it more simple. 
 
-## GRACE DAYS
-Grace days used for this assignment: < 0 >
+Summary of function(s) added: I added a parabola function and an absolute value function as my alternative functions. I also created a function to calculate the fibonacci sequence at different (n), this a collection of three different functions.
 
-Grace days remaining: < 5 >/5
+Summary of Feature Added: Change the turtle shape based on user input 
 
 ## KNOWN BUGS AND INCOMPLETE PARTS:
- < nonee >
+ < none >
 
 ## REFERENCES:
  < none >
 
 ## MISCELLANEOUS COMMENTS:
  < none >
+
